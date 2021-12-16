@@ -1,0 +1,28 @@
+<svg width="711" height="1004" viewBox="0 0 711 1004" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_42_726)">
+<rect x="141.5" y="472.5" width="79" height="79" stroke="black"/>
+<rect x="141.5" y="616.5" width="79" height="79" stroke="black"/>
+<rect x="221.5" y="742.5" width="79" height="79" stroke="black"/>
+<rect x="71.5" y="346.5" width="79" height="79" stroke="black"/>
+<rect x="405.5" y="346.5" width="79" height="79" stroke="black"/>
+<rect x="221.5" y="346.5" width="79" height="79" stroke="black"/>
+<rect x="530.5" y="756.5" width="79" height="79" stroke="black"/>
+<rect x="555.5" y="346.5" width="79" height="79" stroke="black"/>
+<rect x="221.5" y="196.5" width="79" height="79" stroke="black"/>
+<rect x="530.5" y="606.5" width="79" height="79" stroke="black"/>
+<rect x="555.5" y="196.5" width="79" height="79" stroke="black"/>
+<rect x="71.5" y="196.5" width="79" height="79" stroke="black"/>
+<rect x="405.5" y="196.5" width="79" height="79" stroke="black"/>
+<line x1="32.718" y1="152.466" x2="32.7181" y2="898" stroke="black" stroke-width="3"/>
+<line x1="31.218" y1="896.5" x2="679.782" y2="896.5" stroke="black" stroke-width="3"/>
+<line x1="678.282" y1="898" x2="678.282" y2="149.946" stroke="black" stroke-width="3"/>
+<path d="M31.8477 154.355L47.5895 151.837L71.5171 147.429L93.5557 143.651L143.3 134.206L198.082 124.761L235.232 118.464L262.938 114.056L284.347 110.908L298.829 109.019L318.979 107.13H337.239L356.759 106.5H369.983H403.355H425.394L446.803 107.759L468.212 110.278L489.621 112.167L506.622 114.056L528.179 117.106L558.885 122.242L582.812 127.279L623.741 136.095L679.152 151.837" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+<path d="M450 898L441.34 913L458.66 913L450 898ZM451.5 930L451.5 911.5L448.5 911.5L448.5 930L451.5 930Z" fill="black"/>
+</g>
+<rect x="0.5" y="1003.5" width="1003" height="710" transform="rotate(-90 0.5 1003.5)" stroke="black"/>
+<defs>
+<clipPath id="clip0_42_726">
+<rect y="1004" width="1004" height="711" transform="rotate(-90 0 1004)" fill="white"/>
+</clipPath>
+</defs>
+</svg>

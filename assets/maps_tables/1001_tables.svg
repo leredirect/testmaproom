@@ -1,0 +1,45 @@
+<svg width="711" height="1004" viewBox="0 0 711 1004" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_41_458)">
+<path d="M455 807L446.34 822L463.66 822L455 807ZM456.5 839L456.5 820.5L453.5 820.5L453.5 839L456.5 839Z" fill="black"/>
+<line x1="690.5" y1="807" x2="690.5" y2="521" stroke="black" stroke-width="3"/>
+<line x1="24.5001" y1="807" x2="24.5001" y2="234" stroke="black" stroke-width="3"/>
+<line x1="692" y1="522.5" x2="655" y2="522.5" stroke="black" stroke-width="3"/>
+<path d="M368.5 197L369 235" stroke="black" stroke-width="3"/>
+<path d="M607.5 197L607.5 452.699" stroke="black" stroke-width="3"/>
+<line x1="607" y1="198.5" x2="367" y2="198.5" stroke="black" stroke-width="3"/>
+<path d="M24.0001 236L31.3936 231.824L46.1807 225.471L54.6304 222.647L64.4885 219.118L77.8672 214.882L92.6543 210.647L105.329 207.824L113.779 206.059L122.228 204.647L136.311 202.529L144.409 201.471L152.859 200.765L158.14 200.412L161.661 200.059L166.59 199.706L171.519 199.353L177.856 199H187.714H195.46L210.599 199.706L222.921 200.412L236.652 202.176L246.862 203.588L257.072 205L269.395 207.118L283.126 209.941L301.434 214.176L319.037 218.765L331.36 222.294L352.132 229L368 233.5" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+<path d="M607 451.5L619.689 461.5L629.5 471L638 481.5L643 489L646 494L648.5 499L653 509L655 514.5L655.579 516.623C656.19 518.864 656.5 521.177 656.5 523.5V523.5" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+<line x1="25.0001" y1="805.5" x2="692" y2="805.5" stroke="black" stroke-width="3"/>
+<rect x="42.5" y="432.5" width="79" height="79" stroke="black"/>
+<rect x="138.5" y="432.5" width="79" height="79" stroke="black"/>
+<rect x="138.5" y="545.5" width="79" height="79" stroke="black"/>
+<rect x="42.5" y="545.5" width="79" height="79" stroke="black"/>
+<rect x="42.5" y="676.5" width="79" height="79" stroke="black"/>
+<rect x="235.5" y="716.5" width="79" height="79" stroke="black"/>
+<rect x="504.5" y="716.5" width="79" height="79" stroke="black"/>
+<rect x="324.5" y="716.5" width="79" height="79" stroke="black"/>
+<rect x="593.5" y="716.5" width="79" height="79" stroke="black"/>
+<rect x="325.5" y="631.5" width="79" height="79" stroke="black"/>
+<rect x="594.5" y="631.5" width="79" height="79" stroke="black"/>
+<rect x="235.5" y="631.5" width="79" height="79" stroke="black"/>
+<rect x="504.5" y="631.5" width="79" height="79" stroke="black"/>
+<rect x="274.5" y="520.5" width="79" height="79" stroke="black"/>
+<rect x="274.5" y="332.5" width="79" height="79" stroke="black"/>
+<rect x="42.5" y="333.5" width="79" height="79" stroke="black"/>
+<rect x="274.5" y="423.5" width="79" height="79" stroke="black"/>
+<rect x="274.5" y="235.5" width="79" height="79" stroke="black"/>
+<rect x="42.5" y="236.5" width="79" height="79" stroke="black"/>
+<rect x="389.5" y="423.5" width="79" height="79" stroke="black"/>
+<rect x="389.5" y="235.5" width="79" height="79" stroke="black"/>
+<rect x="138.5" y="236.5" width="79" height="79" stroke="black"/>
+<rect x="389.5" y="520.5" width="79" height="79" stroke="black"/>
+<rect x="389.5" y="332.5" width="79" height="79" stroke="black"/>
+<rect x="138.5" y="333.5" width="79" height="79" stroke="black"/>
+</g>
+<rect x="0.500061" y="1003.5" width="1003" height="710" transform="rotate(-90 0.500061 1003.5)" stroke="black"/>
+<defs>
+<clipPath id="clip0_41_458">
+<rect x="6.10352e-05" y="1004" width="1004" height="711" transform="rotate(-90 6.10352e-05 1004)" fill="white"/>
+</clipPath>
+</defs>
+</svg>
