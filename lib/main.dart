@@ -1,7 +1,11 @@
+import 'dart:convert';
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:http/http.dart' as http;
+import 'package:room_map_test/response_class.dart';
 
 class Position {
   Position({
@@ -71,32 +75,62 @@ class _MyHomePageState extends State<MyHomePage> {
     ];
     var mq = MediaQuery.of(context).size;
     double sideSize = math.min(mq.width, mq.height);
+
+    Future<MyResponses> fetchAlbum() async {
+      final response = await http.get(Uri.parse('https://om.st-demo.com/rooms/rooms.json'));
+
+      if (response.statusCode == 200) {
+        print("200");
+          try {
+            MyResponses res = MyResponses.fromJson(jsonDecode(response.body));
+            return res;
+          } catch (e) {
+
+            throw Exception(e);
+          }
+      } else {
+        print (response.statusCode);
+        throw Exception(response.statusCode);
+      }
+    }
+
     print(mq.height);
     return Scaffold(
-        body: InteractiveViewer(
-          child: Center(
-            child: Stack(children: [
-      Container(
-            width: 1000,
-            height: 1000,
-            color: Colors.red,
-            child: SvgPicture.asset(
-              "assets/maps_tables/601_tables.svg",
-              color: Colors.black,
-            ),
-      ),
-      for (int i = 0; i < positions.length; i++)
-            Positioned(
-                child: Container(
-                  width: sideSize/14,
-                  height: sideSize/14,
-                  color: Colors.green,
-                ),
-                top: mq.height / positions[i].fromTop,
-                left: sideSize / positions[i].fromLeft),
-    ]),
-          ),
-        ));
+        body: FutureBuilder<MyResponses>(
+          future: fetchAlbum(),
+          builder: (context, snapshot) {
+            if (snapshot.hasData){
+              print(snapshot.data!.responses[14].roomView!.borders![1].d!);
+                return InteractiveViewer(
+                  child: Center(
+                    child: Stack(children: [
+                      SvgPicture.string('<svg width="366" height="366" viewBox="0 0 366 366" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="${snapshot.data!.responses[14].roomView!.borders![0].d!}" fill="black"/><path d="${snapshot.data!.responses[14].roomView!.borders![1].d!}" fill="red"/><path d="${snapshot.data!.responses[14].roomView!.borders![2].d!}" fill="green"/></svg>'),
+
+                      // Container(
+                      //   width: 1000,
+                      //   height: 1000,
+                      //   color: Colors.red,
+                      //   child: SvgPicture.asset(
+                      //     "assets/maps_tables/601_tables.svg",
+                      //     color: Colors.black,
+                      //   ),
+                      // ),
+                      // for (int i = 0; i < positions.length; i++)
+                      //   Positioned(
+                      //       child: Container(
+                      //         width: sideSize / 14,
+                      //         height: sideSize / 14,
+                      //         color: Colors.green,
+                      //       ),
+                      //       top: mq.height / positions[i].fromTop,
+                      //       left: sideSize / positions[i].fromLeft),
+                    ]),
+                  ),
+                );}else if (snapshot.hasError){ print (snapshot.error); return CircularProgressIndicator(color: Colors.redAccent,);
+              }else{
+              return CircularProgressIndicator(color: Colors.green,);
+            }
+            }));
   }
 }
 // Widget build(BuildContext context) {
